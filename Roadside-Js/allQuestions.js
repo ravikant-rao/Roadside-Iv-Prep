@@ -38,3 +38,18 @@
     //* Q. 12. Callback Function?
     //* Q. 13. Arrow function?
     //* Q. 14. Diff B/w Arrow function and normal function?
+
+
+
+    // ?--------------------ep 03 ---------------------------
+    // * Closeure in Javascript
+    // * Lexical Scope
+    // * Scope Channing in Closure
+    // * Q 1. What will be logged to console?
+    // * Q 2. Write a function that would allow you to do this?
+    // ! Q 3. Time Optimization with closure
+    // ! Q 4. Block Sope and setTimeout
+    // * Q 5. How would u use a closure to create a private counter?
+    // * Q 6. What is Module Pattern?  //senior level iv
+    // * Q 7. Once Pollyfill?
+    // * Q 8. Caching or memoization in javaScript?
