@@ -53,3 +53,20 @@
     // * Q 6. What is Module Pattern?  //senior level iv
     // * Q 7. Once Pollyfill?
     // * Q 8. Caching or memoization in javaScript?
+
+
+
+    // ?---------------------ep 04 -------------------------
+    // * Currying in Javascript
+    // * Q 1. write currying fn for sum(2)(6)(2)?
+    /* //* Q 2.
+    evaluate("sum")(4)(2) => 6
+    evaluate("multiply")(4)(2) => 8
+    evaluate("divide")(4)(2) => 2
+    evaluate("substract")(4)(2) => 2
+    */
+    // * Q 3. Infinite Currying -> add(1)(2)(3)(4)....(n)?
+    // * Q 4. Currying vs Partial Application
+    // * Q 5. Manipulating DOM
+    // * Q 6. Curry() implementation . write function to
+        // Converts f(a,b,c) into f(a)(b)(c);
