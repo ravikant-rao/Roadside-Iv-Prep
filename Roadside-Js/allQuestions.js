@@ -70,3 +70,24 @@
     // * Q 5. Manipulating DOM
     // * Q 6. Curry() implementation . write function to
         // Converts f(a,b,c) into f(a)(b)(c);
+
+
+
+    // ?-----------------------ep 05 -------------------------
+    // ? Objects in Javascript
+    // * Q 1. What's the output?
+    // const obj = {
+    //     a: "one",
+    //     b: "two",
+    //     a: "three",
+    // }
+    // console.log(obj);
+    // * Q 2. Create a function multiplyByTwo(obj) that myltiplies all numeric property values of obj by 2.
+    // * Q 3. What's the Output of the following code?
+    // * 4. What's JSON.strigify and JSON.parse?
+    // * Q 5. console.log([..."lyrics"]);
+    // * Q 6. What's output?
+    // * Q 7. What's the Output?    
+    // * 8. What's the Output?
+    // * Q 9. What is destructuring in obj?
+    // * Q 10. How to deep copy / clone an object ?
