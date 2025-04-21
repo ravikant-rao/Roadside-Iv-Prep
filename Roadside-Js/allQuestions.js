@@ -87,7 +87,100 @@
     // * 4. What's JSON.strigify and JSON.parse?
     // * Q 5. console.log([..."lyrics"]);
     // * Q 6. What's output?
-    // * Q 7. What's the Output?    
+    const song = {name: "Song", type: "lyrics"}
+    const details = {admin: true, ...song};
+    console.log(details);
+    // * Q 7. What's the Output? 
+    const settings = {
+        username: "Piyush",
+        level: 19,
+        health: 90,
+
+    };
+    const data = JSON.stringify(settings, ["level","health"]);
+    console.log(data);   
     // * 8. What's the Output?
+    const shape = {
+        radius: 10,
+        diameter () {
+            return this.radius *2;
+        },
+        perimeter: ()=> 2* Math.PI * this.radius,
+    }
+    
+    console.log(shape.diameter());
+    console.log(shape.perimeter());
     // * Q 9. What is destructuring in obj?
     // * Q 10. How to deep copy / clone an object ?
+
+
+
+    // ?---------------------------ep 06 -----------------------
+    // ? 'this' keyword?
+    // * 'this' in object?
+    // * 'this' inside Nested function
+    // * 'this' inside constructor?
+    // * Q 1. what is the Output?
+    const user3 = {
+        firstName: "Rohit",
+        getName() {
+            const firstName = "Rohini Roy";
+            return this.firstName;
+
+        },
+    };
+    console.log(user3.getName()); //what is logged?
+    // * Q 2. What is the result of accessing its  result?
+    function makeUser (){
+        return {
+            name: "John",
+            ref: this,
+        };
+    }
+    let myUser = makeUser();
+    console.log(myUser.ref.name);
+    // * Q 3. What is the Output?
+    const usr = {
+        name: "Saurav",
+        logMessage(){
+            console.log(this.name); // what is logged?
+            
+        },
+    };
+    setTimeout(usr.logMessage, 1000);
+    //make it working for usr.
+    // * Q 4. What is the Output?
+    const usr2 = {
+        name: "Saurav Ray",
+        greet(){
+            return `Hello, ${this.name} !`;
+        },
+        farewell: ()=>{
+            return `Goodbye, ${this.name}`;
+        },
+
+    }
+    console.log(usr2.greet()); //what logged?
+    console.log(usr2.farewell()); //what logged?
+    // * Q 5. Create and object calculator
+    calculator.read(10,15);
+    console.log(calculator.sum());
+    console.log(calculator.mul());
+    // * Q 6. what will be the Output?
+    var length = 4;
+    function callback(){
+        console.log(this.length);
+        
+    }
+    const object = {
+        length: 5,
+        method(fn){
+            fn();
+        },
+    }
+
+    object.method(callback);
+    // * Q 7. Implement this code
+    // const result = calc.add(10).multiply(5).subtract(30).add(10);
+    console.log(result.total);
+
